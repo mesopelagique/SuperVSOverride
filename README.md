@@ -8,7 +8,7 @@ when using `This` in a function that override another calling from constructor
 
 
 - `Chien` extends `Animal` and override `parle` function
-- `parle` function is called from constructor of `Animal` 
+- `parle` function is called from `Animal` constructor 
 
 > :bulb: 
 > - calling function overridable in constructor allow to call some init function like a `reset` function to set some default values.
@@ -59,8 +59,10 @@ Call chain:
 ]
 ```
 
-- For `Cat` no override, `This` is ready in `parle` function
-- For `Dog` with override, `This`in debugger give `## Error # -10743` in `parle` function
+- For `Chat` no override, `This` is ready in `parle` function
+- For `Chien` with override, `This`in debugger give `## Error # -10743` in `parle` function
+
+PS: same with `This.myComputedAttribute:=42` called in `Animal`  constructor  and `Function set myComputedAttribute` defined in `Chien`
 
 ## in js
 
