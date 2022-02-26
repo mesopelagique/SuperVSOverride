@@ -71,4 +71,4 @@ see [index.js](index.js)
 Ida aboie.
 ```
 
-no issue, and others languages that I known too
+no issue, and others languages that I known too (like [java](MyClass.java))
