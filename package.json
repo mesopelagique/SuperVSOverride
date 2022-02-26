@@ -1,0 +1,10 @@
+{
+  "name": "supervsoverride",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "main": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
