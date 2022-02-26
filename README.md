@@ -7,12 +7,12 @@
 when using `This` in a function that override another calling from constructor
 
 
-`Chien` extends `Animal` and override `parle` function
-`parle` function is called from constructor
+- `Chien` extends `Animal` and override `parle` function
+- `parle` function is called from constructor of `Animal` 
 
-:bulb: calling function overridable in constructor allow to call some init function like a `reset` function to set some default values.
-
-It allow to make some code optional class constructor by overriding it if necessary for some children class
+> :bulb: 
+> - calling function overridable in constructor allow to call some init function like a `reset` function to set some default values.
+> - It allow to make some code optional class constructor by overriding it if necessary for some children class
 
 ## in 4d (main 276307)
 
